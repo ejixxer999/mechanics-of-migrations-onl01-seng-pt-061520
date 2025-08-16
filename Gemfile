@@ -3,11 +3,11 @@ source "https://rubygems.org"
 
 # gem "rails"
 
-gem "activerecord", "~> 5.2.3", :require => "active_record"
+gem "activerecord", "~> 7.1.5", ">= 7.1.5.2", :require => "active_record"
 gem "rake"
 gem "require_all"
 gem "sqlite3"
 gem "pry"
-gem "sinatra-activerecord", :require => "sinatra/activerecord"
+gem "sinatra-activerecord", ">= 2.0.15", :require => "sinatra/activerecord"
 gem "rspec"
 gem "database_cleaner"
